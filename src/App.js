@@ -1,24 +1,20 @@
+/*
+  參考網址：https://reacttraining.com/react-router/web/guides/quick-start
+*/
+
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Basic from './Examples/Basic'
+import PreventingTransitions from './Examples/PreventingTransitions'
+import NoMatch from './Examples/NoMatch'
+import RecursivePaths from './Examples/RecursivePaths'
+import Sidebar from './Examples/Sidebar'
+import ModalGallery from './Examples/ModalGallery'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ModalGallery />
     </div>
   );
 }
